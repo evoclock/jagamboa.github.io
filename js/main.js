@@ -9,36 +9,17 @@ function about() {
   return "<p>I am a computational biologist by training with expertise in a wide range of tools and languages such as R, Python, and GNU Bash, as well as statistical and machine learning methods such as XGBoost and HDBSCAN. What truly motivates me is thinking deeply about the underlying processes that generate any dataset I work with.  I believe in the power of interdisciplinary knowledge, as it allows me to approach challenges from different perspectives and find innovative solutions.</p>";
 }
 
-function skills(){
-  return "<h2><span style=\"color:#81a2be;\">Programming skills:</span></h2><table>\
-  <tr>\
-    <td>R/RStudio/Tidyverse</td>\
-    <td>▰▰▰▰▰▰▰▰▰▱ 90%</td>\
-  </tr>\
-  <tr>\
-    <td>Python</td>\
-    <td>▰▰▰▰▰▰▱▱▱▱ 60%</td>\
-  </tr>\
-  <tr>\
-    <td>GNU Bash (inc. awk/sed/grep/regex)</td>\
-    <td>▰▰▰▰▰▰▰▰▱▱ 80%</td>\
-  </tr>\
-  <tr>\
-    <td>SQL (MySQL primarily)</td>\
-    <td>▰▰▰▰▰▰▰▰▱▱ 80%</td>\
-  </tr>\
-  <tr>\
-    <td>Git/GitHub/Version control</td>\
-    <td>▰▰▰▰▰▰▰▱▱▱ 70%</td>\
-  <tr>\
-    <td>Perl</td>\
-    <td>▰▰▰▰▰▱▱▱▱▱ 50%</td>\
-  </tr>\
-  <tr>\
-    <td>Julia</td>\
-    <td>▰▰▰▰▰▱▱▱▱▱ 50%</td>\
-  </tr>\
-  </tr></table>";
+function skills() {
+  // Return skills content
+  return "<h2>Programming skills:</h2><ul>\
+    <li>R/RStudio/Tidyverse - 90%</li>\
+    <li>Python - 60%</li>\
+    <li>GNU Bash (inc. awk/sed/grep/regex) - 80%</li>\
+    <li>SQL (MySQL primarily) - 80%</li>\
+    <li>Git/GitHub/Version control - 70%</li>\
+    <li>Perl - 50%</li>\
+    <li>Julia - 50%</li>\
+  </ul>";
 }
 
 function links() {

@@ -1,120 +1,69 @@
-body{
+body {
   font-family: "Lucida Console", "Lucida Sans Unicode", "Courier New";
-  color:white;
+  color: white;
   background-color: #1d1f21;
+  margin: 0;
+  padding: 0;
 }
 
-a{
-  color:inherit;
-  font-weight: inherit;
-  text-decoration: inherit;
-}
-
-#sidebar{
-  margin: 5%;
-  margin-top: 0.5%;
-  text-align: justify;
-}
-
-#terminal{
-  margin:5%;
-}
-
-@media(min-width:1024px){
-  #sidebar{
-    flex-basis: 20%;
-    margin:2%;
-    margin-top:0.5%;
-    height: 100%;
-  }
-
-  #terminal{
-    flex-basis: 72%;
-    flex-direction: row;
-    margin-top:2%;
-    margin-right: 2%;
-    margin-left: auto;
-    margin-bottom: auto;
-  }
-
-  body{
-      overflow-x:hidden;
-  }
-}
-
-.container{
+.container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
-#sidebar h1{
+#sidebar {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#sidebar h1 {
   color: #58d49f;
-  font-size: 52px;
+  font-size: 36px;
+  margin-bottom: 10px;
 }
 
-@media(max-width:1024px){
-  #sidebar h1{
-    font-size: 10vw;
-  }
-}
-
-#profile{
+#profile {
   max-width: 100%;
 }
 
-#intro{
-  color: #de935f;
-  text-align: justify;
-}
-
-#prompt{
-  float:left;
-  width:auto;
-  font-size: 22px;
-  vertical-align: middle;
-  box-sizing: border-box;
-  background-color: #1d1f21;
-  color: #f0c674;
-  border: none;
-}
-
-#txtBox{
-  float:left;
-  width:auto;
-  font-size: 22px;
-  vertical-align: middle;
-  background-color: #1d1f21;
-  color: #b5bd68;
-  border: none;
-  box-sizing: border-box;
-}
-
-#Copyright{
-  color: #373b41;
-  margin:2%;
-}
-
-#injected{
-  font-size: 15px;
+#injected {
+  font-size: 16px;
   color: white;
   text-align: justify;
-  margin-top:2%;
-}
-
-#injected ul{
-  list-style: none;
-}
-
-#injected li, th, td {
-    padding-right: 45px;
-    padding-left: 25px;
-    padding-top: 7px;
-
-    text-align: left;
-}
-
-#userInput{
   margin-top: 20px;
+}
+
+#injected h2 {
+  color: #58d49f;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+#injected ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#injected li {
+  margin-bottom: 10px;
+}
+
+#injected a {
+  color: #b5bd68;
+  text-decoration: underline;
+}
+
+#Copyright {
+  color: #373b41;
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  #sidebar h1 {
+    font-size: 24px;
+  }
 }
