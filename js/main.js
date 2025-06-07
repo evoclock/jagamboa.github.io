@@ -6,17 +6,16 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function about() {
   // Return about content
-  return "<p>I am a computational biologist by training with expertise in a wide range of tools and languages such as R, Python, and GNU Bash, as well as statistical and machine learning methods such as XGBoost and HDBSCAN. What truly motivates me is thinking deeply about the underlying processes that generate any dataset I work with.  I believe in the power of interdisciplinary knowledge, as it allows me to approach challenges from different perspectives and find innovative solutions.</p>";
+  return "<p>I am a data scientist and computational biologist with experience delivering complex analytical solutions across both government operations and academic research. My work combines statistical modelling, machine learning, and domain expertise to build robust, scalable pipelines that support real-world decision-making. I have developed and deployed data science models for fraud detection, financial assurance, forecasting, and network risk analysis using technologies such as Python, R, Databricks, Azure DevOps, MLflow, and NLP frameworks like BERT and GPT-2. In parallel, my doctoral research applies advanced sequence modelling, transformer-based embeddings, and multimodal clustering to explore how biological variation drives functional differences across organisms. What motivates me is understanding the underlying processes that generate the data — and designing models that capture that complexity while remaining actionable. I believe interdisciplinary thinking is critical to solving modern data challenges, as it allows me to approach problems from multiple perspectives and design solutions that balance technical rigour with practical impact.</p>";
 }
 
 function skills() {
   // Return skills content
-  return "<h2>Programming skills:</h2><ul>\
+  return "<h2>Programming languages:</h2><ul>\
     <li>R/RStudio/Tidyverse - 90%</li>\
-    <li>Python - 60%</li>\
+    <li>Python - 90%</li>\
     <li>GNU Bash (inc. awk/sed/grep/regex) - 80%</li>\
-    <li>SQL (MySQL primarily) - 80%</li>\
-    <li>Git/GitHub/Version control - 70%</li>\
+    <li>SQL - 80%</li>\
     <li>Perl - 50%</li>\
     <li>Julia - 50%</li>\
   </ul>";
